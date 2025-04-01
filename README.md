@@ -2,6 +2,10 @@
 
 A modern, AI-powered tech support chatbot that helps users troubleshoot common technical issues. Built with Next.js and TypeScript, it provides real-time assistance through natural language conversations, tracks analytics, and learns from user feedback.
 
+## Live Demo
+
+Check out the live deployment of the application at:
+[https://tech-support-bot-two.vercel.app/](https://tech-support-bot-two.vercel.app/)
 ## Installation
 
 1. Clone the repository:
@@ -18,7 +22,10 @@ npm install
 3. Set up environment variables:
 Create a `.env.local` file in the root directory with:
 ```
-OPENAI_API_KEY=your_api_key_here
+# OpenRouter API keys for DeepSeek model access
+NEXT_PUBLIC_OPENROUTER_API_KEY=your_openrouter_api_key_here
+NEXT_PUBLIC_OPENROUTER_API_KEY2=your_backup_openrouter_api_key_here (optional)
+NEXT_PUBLIC_APP_URL=your_application_url
 ```
 
 4. Start the development server:
